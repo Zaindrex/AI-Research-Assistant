@@ -1,4 +1,4 @@
-# Arxiv Paper Processor with Gradio, LangChain, Qdrant, and Ollama
+# AI Research Assistant with Arxiv Paper Processing, Gradio, LangChain, Qdrant, and Ollama
 
 ## Description
 This project is an AI-powered research assistant that processes academic papers from **arXiv**. It uses **Gradio** to create a simple web interface, **LangChain** for advanced natural language processing tasks, **Qdrant** for storing and retrieving embeddings, and **Ollama** for AI-driven conversational responses.
