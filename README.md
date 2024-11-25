@@ -13,11 +13,16 @@ The system allows users to enter a research topic and a related question. It the
 - **Gradio Interface**: A user-friendly interface for interacting with the system.
 
 ## Installation
+### 1. Install Python Dependencies
 To set up this project, you will need to install the following dependencies:
-
 ```bash
 pip install gradio arxiv langchain_community qdrant-client PyPDF2 langchain
 ```
+### 2. Install Ollama
+- Ollama is required for running the Llama 2 (7B) model. Follow these steps:
+- Download and install Ollama from [its official website](https://ollama.com/).
+- Pull the Llama 2 (7B) model by running:
+`ollama pull llama2:7b-chat`
 
 ## Optional:
 **CUDA (if using GPU for inference): Make sure CUDA is installed for better performance with large models.*
