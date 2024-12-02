@@ -2,7 +2,6 @@
 
 ## Description
 This project is an AI-powered research assistant that processes academic papers from **arXiv**. It uses **Gradio** to create a simple web interface, **LangChain** for advanced natural language processing tasks, **Qdrant** for storing and retrieving embeddings, and **Ollama** for AI-driven conversational responses.
-
 The system allows users to enter a research topic and a related question. It then fetches the most relevant academic papers from **arXiv**, processes them into manageable chunks, and answers the question based on the context provided by these papers.
 
 ## Features
@@ -54,5 +53,6 @@ pip install gradio arxiv langchain_community qdrant-client PyPDF2 langchain
   - Loads the papers and splits the text into chunks.
   - Creates document embeddings and stores them in Qdrant.
   - Uses llama2:7b-chat via LangChain to answer questions.
+
 **2. Gradio Interface:** The UI is created using Gradio, which allows users to input a topic and a question, then view the answer in real-time.
 
